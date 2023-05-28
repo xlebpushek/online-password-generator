@@ -1,0 +1,33 @@
+module.exports = {
+  extends: ['stylelint-config-standard', 'stylelint-config-clean-order', 'stylelint-config-prettier'],
+  plugins: ['stylelint-order'],
+  rules: {
+    'declaration-block-no-duplicate-custom-properties': true,
+    'declaration-block-no-duplicate-properties': true,
+    'font-family-no-duplicate-names': true,
+    'keyframe-block-no-duplicate-selectors': true,
+    'no-duplicate-at-import-rules': true,
+    'no-duplicate-selectors': true,
+    'block-no-empty': true,
+    'comment-no-empty': true,
+    'no-empty-source': true,
+    'color-no-invalid-hex': true,
+    'function-calc-no-unspaced-operator': true,
+    'keyframe-declaration-no-important': true,
+    'named-grid-areas-no-invalid': true,
+    'no-invalid-double-slash-comments': true,
+    'no-invalid-position-at-import-rule': true,
+    'string-no-newline': true,
+    'no-irregular-whitespace': true,
+    'custom-property-no-missing-var-function': true,
+    'font-family-no-missing-generic-family-keyword': true,
+    'function-linear-gradient-no-nonstandard-direction': true,
+    'declaration-block-no-shorthand-property-overrides': true,
+    'at-rule-no-unknown': [
+      true,
+      {
+        ignoreAtRules: ['tailwind', 'apply'],
+      },
+    ],
+  },
+}

@@ -1,0 +1,59 @@
+{
+  "name": "online-password-generator",
+  "description": "Online password generator",
+  "license": "MIT",
+  "author": {
+    "name": "Xlebp Rjanoi",
+    "email": "xlebpushek@gmail.com",
+    "url": "https://xlebpushek.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlebpushek/online-password-generator.git"
+  },
+  "homepage": "https://xlebpushek.com/works/websites/online-password-generator",
+  "bugs": {
+    "url": "https://github.com/xlebpushek/online-password-generator/issues"
+  },
+  "scripts": {
+    "client:dev": "next dev",
+    "client:build": "next build",
+    "client:start": "next start",
+    "client:eslint": "eslint --ext .ts src",
+    "client:eslint:fix": "eslint --ext .ts src -- --fix"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.35",
+    "@types/react-dom": "18.0.11",
+    "classnames": "^2.3.2",
+    "crypto-js": "^4.1.1",
+    "effector": "^22.8.0",
+    "effector-react": "^22.5.1",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0",
+    "fortuna": "^0.0.0",
+    "framer-motion": "^10.12.2",
+    "hash.js": "^1.1.7",
+    "next": "13.3.1-canary.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-use-scroll-direction": "^0.1.0",
+    "typed.js": "^2.0.15",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.3.1",
+    "@types/crypto-js": "^4.1.1",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
+    "stylelint": "^15.4.0",
+    "stylelint-config-clean-order": "^5.0.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard": "^32.0.0",
+    "tailwindcss": "^3.3.1"
+  }
+}
